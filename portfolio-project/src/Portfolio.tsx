@@ -25,13 +25,13 @@ export default function Portfolio() {
         <h3>The G.O.A.T Car List</h3>
         <p>
           A project to collect and display some of the rarest, coolest, most
-          exciting cars produced to date. Add your own cars to the list, update
-          incorrect information on other cars, or if you feel a car doesn&apos;t
-          belong in the collection delete it if you dare. This was a very fun
-          project and was the first app built using the full-stack method. There
-          were some challenges with deployment using Postgres. The Add and
-          Update functionality isn't working to this. Next time I feel deploying
-          it as a SQL database will be more benficial.
+          exciting cars produced to date. Add yonpmur own cars to the list,
+          update incorrect information on other cars, or if you feel a car
+          doesn&apos;t belong in the collection delete it if you dare. This was
+          a very fun project and was the first app built using the full-stack
+          method. There were some challenges with deployment using Postgres. The
+          Add and Update functionality isn't working to this. Next time I feel
+          deploying it as a SQL database will be more benficial.
         </p>
         <p>Built using: React, Redux, TypeScript, SQLite 3,</p>
         <a
