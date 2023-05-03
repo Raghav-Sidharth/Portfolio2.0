@@ -8,7 +8,12 @@ export default function Portfolio() {
           Gallerina is a user-friendly art curation website similar to
           Pinterest, allowing users to scroll through and save artworks to their
           personal collections. Logged-in users can also search, filter, and
-          manage their collections with ease.
+          manage their collections with ease. One the biggest learning curves
+          with this project was the Artsy API we had chosen to use. It was very
+          fickle and took us time to get used to. Some of the we wanted to
+          collect was not available and had to make do with the information it
+          did provide. Our next steps as a team will be to refactor the code and
+          deply the site which will take some time.
         </p>
 
         <p>Built using: React, Redux, Tailwind, TypeScript, SQLite 3,</p>
@@ -22,7 +27,11 @@ export default function Portfolio() {
           A project to collect and display some of the rarest, coolest, most
           exciting cars produced to date. Add your own cars to the list, update
           incorrect information on other cars, or if you feel a car doesn&apos;t
-          belong in the collection delete it if you dare.
+          belong in the collection delete it if you dare. This was a very fun
+          project and was the first app built using the full-stack method. There
+          were some challenges with deployment using Postgres. The Add and
+          Update functionality isn't working to this. Next time I feel deploying
+          it as a SQL database will be more benficial.
         </p>
         <p>Built using: React, Redux, TypeScript, SQLite 3,</p>
         <a
