@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import logoWhite from './assets/files/logo-white-23.png'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import resume from './assets/files/Raghav-Sidharth-CV-2023.pdf'
 
 export default function NavBar() {
   const [nav, setNav] = useState(false)
@@ -42,7 +45,42 @@ export default function NavBar() {
         <li className=" py-6  text-4xl">Contact</li>
       </ul>
       {/* Social Icons */}
-      <div className="hidden"> </div>
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <a
+              className="flex justify-between items-center w-full font-bold"
+              href="https://www.linkedin.com/in/raghav-sidharth-4b0932188/"
+            >
+              LinkedIn <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900">
+            <a
+              className="flex justify-between items-center w-full font-bold"
+              href="https://github.com/Raghav-Sidharth"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-800">
+            <a
+              className="flex justify-between items-center w-full font-bold"
+              href="/"
+            >
+              Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#a48948]">
+            <a
+              className="flex justify-between items-center w-full font-bold"
+              href={resume}
+            >
+              Resume <BsFillPersonLinesFill size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   )
 }
