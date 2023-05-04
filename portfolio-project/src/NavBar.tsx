@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logoWhite from './assets/files/logo-white-23.png'
+import logoBlue from './assets/files/logo.png'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -12,9 +12,9 @@ export default function NavBar() {
   }
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#eeede1]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#eeede1] text-[#0a192f]">
       <div>
-        <img src={logoWhite} alt="White Logo" style={{ width: '50px' }} />
+        <img src={logoBlue} alt="White Logo" style={{ width: '50px' }} />
       </div>
       {/* Menu */}
 
