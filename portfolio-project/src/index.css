@@ -4,7 +4,11 @@
 @import url("https://use.typekit.net/wpu4icz.css");
 
 @layer base {
+  html{
+    font-family: Proxima Nova
+  }
   body {
+    
    @apply text-[#07212c]
   }
 

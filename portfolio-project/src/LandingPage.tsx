@@ -6,10 +6,8 @@ export default function LandingPage() {
     <div name="home" className="w-full h-screen bg-[#eeede1]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-2xl">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-5xl font-extrabold ">
-          Raghav Sidharth
-        </h1>
-        <h2 className="text-4xl sm:text-5xl font-bold py-2 text-[#a48948]">
+        <h1 className="text-4xl sm:text-5xl font-black ">Raghav Sidharth</h1>
+        <h2 className="text-4xl sm:text-5xl font-extrabold py-2 text-[#a48948]">
           I'm a Full Stack Developer.
         </h2>
         <p className="py-4 max-w-[700px] font-medium">
