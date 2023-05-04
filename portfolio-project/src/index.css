@@ -4,6 +4,10 @@
 @import url("https://use.typekit.net/wpu4icz.css");
 
 @layer base {
+  body {
+   @apply text-[#07212c]
+  }
+
   li {
     @apply px-4;
     @apply cursor-pointer
