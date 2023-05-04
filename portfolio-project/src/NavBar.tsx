@@ -1,17 +1,48 @@
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import logoWhite from './assets/files/logo-white-23.png'
+import { FaBars, FaTimes } from 'react-icons/fa'
 
 export default function NavBar() {
+  const [nav, setNav] = useState(false)
+  function handleClick() {
+    setNav(!nav)
+  }
+
   return (
-    <div>
-      <button>
-        <Link to="hero">Home</Link>
-      </button>
-      <button>
-        <Link to="about">About</Link>
-      </button>
-      <button>
-        <Link to="projects">Projects</Link>
-      </button>
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#eeede1]">
+      <div>
+        <img src={logoWhite} alt="White Logo" style={{ width: '50px' }} />
+      </div>
+      {/* Menu */}
+
+      <ul className="hidden md:flex">
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+
+      {/* Hamburger Menu */}
+      <div onClick={handleClick} className="md:hidden z-10">
+        {!nav ? <FaBars /> : <FaTimes />}
+      </div>
+      {/* Mobile Menu */}
+      <ul
+        className={
+          !nav
+            ? 'hidden'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
+        }
+      >
+        <li className=" py-6  text-4xl">Home</li>
+        <li className=" py-6  text-4xl">About</li>
+        <li className=" py-6  text-4xl">Skills</li>
+        <li className=" py-6  text-4xl">Projects</li>
+        <li className=" py-6  text-4xl">Contact</li>
+      </ul>
+      {/* Social Icons */}
+      <div className="hidden"> </div>
     </div>
   )
 }
