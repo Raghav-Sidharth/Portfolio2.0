@@ -18,13 +18,7 @@ export default function LandingPage() {
           apply my newfound skills to make beautiful, accessible applications
           for users to engage with.
         </p>
-        <p className="py-1 max-w-[700px] font-medium">
-          Prior, I had been a practising graphic designer for over four years,
-          specialising in print, packaging, and identity design. My goal
-          throughout my career has been to facilitate the needs of small and
-          large businesses, utilising e-commerce solutions and eDM marketing
-          strategies to grow and reach new customers.
-        </p>
+
         <div className="py-2">
           <button className=" group  border-2 border-[#07212c] px-6 py-3 my-2 flex items-center hover:bg-[#a48948] hover:border-[#a48948] hover:text-[#eeede1]">
             View My Work
