@@ -1,7 +1,8 @@
+@import url("https://use.typekit.net/wpu4icz.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://use.typekit.net/wpu4icz.css");
+
 
 @layer base {
   html{

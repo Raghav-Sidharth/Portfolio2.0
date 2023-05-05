@@ -12,7 +12,7 @@ export default function NavBar() {
   }
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#eeede1] text-[#0a192f]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#eeede1] text-[#0a192f] font-proxima">
       <div>
         <img src={logoBlue} alt="White Logo" style={{ width: '50px' }} />
       </div>
