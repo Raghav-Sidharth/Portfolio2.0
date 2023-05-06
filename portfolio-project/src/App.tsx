@@ -4,6 +4,7 @@ import LandingPage from './LandingPage'
 import NavBar from './NavBar'
 import Skills from './Skills'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   )
 }

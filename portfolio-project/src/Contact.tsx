@@ -11,7 +11,7 @@ export default function Contact() {
         <form
           action="https://getform.io/f/626e9833-6ca0-478d-95ed-6744813e8ef6"
           method="POST"
-          className="flex flex-col max-w-[600px] w-full"
+          className="flex flex-col max-w-[600px] w-full pb-20"
         >
           <div className="pb-8">
             <p className=" sm:text-3xl md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">

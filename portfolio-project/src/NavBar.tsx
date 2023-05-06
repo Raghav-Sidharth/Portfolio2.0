@@ -36,13 +36,11 @@ export default function NavBar() {
           </Link>
         </li>
         <li>
-          {' '}
           <Link to="projects" smooth={true} offset={-50} duration={500}>
             Projects
           </Link>
         </li>
         <li>
-          {' '}
           <Link to="contact" smooth={true} offset={-50} duration={500}>
             Contact
           </Link>
@@ -62,19 +60,16 @@ export default function NavBar() {
         }
       >
         <li className=" py-6  text-4xl">
-          {' '}
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className=" py-6  text-4xl">
-          {' '}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className=" py-6  text-4xl">
-          {' '}
           <Link
             onClick={handleClick}
             to="skills"
@@ -86,7 +81,6 @@ export default function NavBar() {
           </Link>
         </li>
         <li className=" py-6  text-4xl">
-          {' '}
           <Link
             onClick={handleClick}
             to="projects"
@@ -98,7 +92,6 @@ export default function NavBar() {
           </Link>
         </li>
         <li className=" py-6  text-4xl">
-          {' '}
           <Link
             onClick={handleClick}
             to="contact"

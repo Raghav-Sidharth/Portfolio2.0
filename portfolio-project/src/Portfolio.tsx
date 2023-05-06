@@ -25,7 +25,7 @@ export default function Portfolio() {
                 <img
                   className="sm:min-w-100px sm:min-h-100px md:max-w-250px md:max-h-250px rounded-lg"
                   src={Gallerina}
-                  alt=""
+                  alt="Gallerina Logo"
                 />
               </div>
               <div>
@@ -57,7 +57,10 @@ export default function Portfolio() {
                     TypeScript
                   </p>
                   <div className=" flex flex-wrap pt-5">
-                    <a href="https://github.com/tohora-2023/Gallerina/tree/dev">
+                    <a
+                      href="https://github.com/tohora-2023/Gallerina/tree/dev"
+                      target="_blank"
+                    >
                       <div className="pr-5">
                         <FaGithub size={50} />
                       </div>
@@ -71,7 +74,7 @@ export default function Portfolio() {
                 <img
                   className="sm:min-w-100px sm:min-h-100px md:max-w-250px md:max-h-250px rounded-lg"
                   src={GOAT}
-                  alt=""
+                  alt="Greatest of all time Cars"
                 />
               </div>
               <div>
@@ -101,13 +104,19 @@ export default function Portfolio() {
                     Built using: React, Redux, SQLite 3, CSS 3, TypeScript
                   </p>
                   <div className=" flex flex-wrap pt-5">
-                    <a href="https://github.com/tohora-2023/my-fullstack-collection/tree/raghav">
+                    <a
+                      href="https://github.com/tohora-2023/my-fullstack-collection/tree/raghav "
+                      target="_blank"
+                    >
                       <div className="pr-5">
                         <FaGithub size={50} />
                       </div>
                     </a>
                     <div className="pl-5">
-                      <a href="http://car-collection.devacademy.nz/">
+                      <a
+                        href="http://car-collection.devacademy.nz/"
+                        target="_blank"
+                      >
                         <CgWebsite size={50} />
                       </a>
                     </div>
