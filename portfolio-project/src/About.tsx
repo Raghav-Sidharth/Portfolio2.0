@@ -9,14 +9,14 @@ export default function About() {
         <div className="flex flex-col justify-center items-center w-full h-full">
           <div className="max-w-[1010px] w-full grid grid-cols-2 gap-8">
             <div className="sm:text-right pb-8 pl-4">
-              <p className="text-4xl font-extrabold inline border-b-4 border-[#a48948]">
+              <p className=" md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">
                 About Me
               </p>
             </div>
             <div></div>
           </div>
           <div className="max-w-[1010px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl font-bold">
+            <div className="sm:text-right sd:text-3xl md:text-4xl font-bold">
               <p>
                 Prior, I had been a freelance
                 <em className="text-[#a48948]"> Graphic Designer</em> for over
