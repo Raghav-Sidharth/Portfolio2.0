@@ -20,9 +20,9 @@
   }
 }
 
-.Logo-Hero{
-  max-width: 150px;
-  max-height: 150px;
+.nav-item:hover {
+  border-bottom: 10px;
+  border-color: #a48948;
 }
 
 /* .content-div {

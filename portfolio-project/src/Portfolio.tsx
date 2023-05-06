@@ -66,7 +66,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-            <div className="rounded-lg hover:shadow-lg  hover:shadow-[#a48948] duration-500 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-10">
+            <div className="pb-20 mb-20 rounded-lg hover:shadow-lg  hover:shadow-[#a48948] duration-500 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-10">
               <div>
                 <img
                   className="sm:min-w-100px sm:min-h-100px md:max-w-250px md:max-h-250px rounded-lg"
@@ -98,8 +98,7 @@ export default function Portfolio() {
                     if you dare!
                   </p>
                   <p className="pt-4">
-                    Built using: React, Redux, SQLite 3, Tailwind CSS,
-                    TypeScript
+                    Built using: React, Redux, SQLite 3, CSS 3, TypeScript
                   </p>
                   <div className=" flex flex-wrap pt-5">
                     <a href="https://github.com/tohora-2023/my-fullstack-collection/tree/raghav">
@@ -119,7 +118,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="sd:w-full sd:h-[500px] bg-[#07212c]">
+      <div className=" pt-20 sd:w-full sd:h-[500px] bg-[#07212c]">
         <div></div>
       </div>
     </div>

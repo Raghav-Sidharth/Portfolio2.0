@@ -3,6 +3,7 @@ import About from './About'
 import LandingPage from './LandingPage'
 import NavBar from './NavBar'
 import Skills from './Skills'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Portfolio />
+      <Contact />
     </>
   )
 }

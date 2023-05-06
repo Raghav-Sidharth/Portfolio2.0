@@ -11,5 +11,8 @@ export default {
       },
     },
   },
+  variants: {
+    text: ['active'],
+  },
   plugins: [],
 }

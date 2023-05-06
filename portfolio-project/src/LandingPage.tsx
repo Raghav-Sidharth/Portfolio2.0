@@ -1,5 +1,6 @@
 import logo from './assets/files/logo.png'
 import { HiArrowNarrowRight } from 'react-icons/hi'
+import { Link } from 'react-scroll'
 
 export default function LandingPage() {
   return (
@@ -18,14 +19,16 @@ export default function LandingPage() {
         </p>
 
         <div className="py-2">
-          <button className=" group  border-2 border-[#07212c] px-6 py-3 my-2 flex items-center hover:bg-[#a48948] hover:border-[#a48948] hover:text-[#eeede1]">
-            View My Work
-            <div className="group-hover:rotate-90 duration-300  ml-3">
-              <span>
-                <HiArrowNarrowRight />
-              </span>
-            </div>
-          </button>
+          <Link to="projects" smooth={true} offset={-150} duration={500}>
+            <button className=" group  border-2 border-[#07212c] px-6 py-3 my-2 flex items-center hover:bg-[#a48948] hover:border-[#a48948] hover:text-[#eeede1]">
+              View My Work
+              <div className="group-hover:rotate-90 duration-300  ml-3">
+                <span>
+                  <HiArrowNarrowRight />
+                </span>
+              </div>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
