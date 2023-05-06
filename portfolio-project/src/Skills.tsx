@@ -12,7 +12,7 @@ export default function Skills() {
     <>
       <div className="sd:w-full sd:h-[1000px] bg-[#eeede1]"></div>
       <div
-        name="skills"
+        id="skills"
         className="bg-[#eeede1] md:w-full md:h-screen font-proxima"
       >
         {/* Container */}

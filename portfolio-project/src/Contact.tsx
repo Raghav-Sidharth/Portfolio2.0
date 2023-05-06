@@ -5,7 +5,7 @@ export default function Contact() {
         <div></div>
       </div>
       <div
-        name="contact"
+        id="contact"
         className="w-full h-screen bg-[#eeede1] text-[#07212c] font-proxima flex justify-center items-center p-4"
       >
         <form

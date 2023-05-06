@@ -1,10 +1,9 @@
-import logo from './assets/files/logo.png'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link } from 'react-scroll'
 
 export default function LandingPage() {
   return (
-    <div name="home" className="w-full h-screen bg-[#eeede1] font-proxima">
+    <div id="home" className="w-full h-screen bg-[#eeede1] font-proxima">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-2xl">Hi, my name is</p>
         <h1 className="text-4xl sm:text-5xl font-black ">Raghav Sidharth</h1>

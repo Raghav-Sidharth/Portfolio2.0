@@ -1,9 +1,8 @@
-import resume from './assets/files/Raghav-Sidharth-CV-2023.pdf'
 export default function About() {
   return (
     <>
       <div
-        name="about"
+        id="about"
         className=" w-full h-screen bg-[#07212c] text-[#eeede1] font-proxima"
       >
         <div className="flex flex-col justify-center items-center w-full h-full">

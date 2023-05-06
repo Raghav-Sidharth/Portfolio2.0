@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <div className="sm:w-full sm:h-[1500px] sm:pt-20 bg-[#07212c] ">
       <div
-        name="projects"
+        id="projects"
         className=" w-full h-full bg-[#07212c] text-[#eeede1] font-proxima"
       >
         <div className="flex flex-col justify-center items-center w-full h-full">
