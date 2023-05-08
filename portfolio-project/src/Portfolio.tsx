@@ -14,9 +14,9 @@ export default function Portfolio() {
           <div className="max-w-[2000px] w-full flex flex-col justify-center items-center gap-8 ">
             <div className="sm:text-right sm:pb-20 md:pb-20 pl-4">
               <div className="pt-10">
-                <p className="sm:text-3xl sm:mt-10 md:text-6xl pt-10 font-extrabold inline border-b-4 border-[#a48948]">
+                <h1 className="sm:text-3xl sm:mt-10 md:text-6xl pt-10 font-extrabold inline border-b-4 border-[#a48948]">
                   Projects
-                </p>
+                </h1>
               </div>
               <div></div>
             </div>
@@ -30,11 +30,11 @@ export default function Portfolio() {
               </div>
               <div>
                 <div className="sm:text-left ">
-                  <p>Project</p>
+                  <h2>Project</h2>
 
-                  <p className="sm:text-2xl md:text-4xl font-black pb-5">
+                  <h2 className="sm:text-2xl md:text-4xl font-black pb-5">
                     Gallerina
-                  </p>
+                  </h2>
                 </div>
                 <p>
                   Gallerina is a user-friendly art curation website similar to
@@ -54,7 +54,7 @@ export default function Portfolio() {
                   </p>
                   <p className="pt-4">
                     Built using: React, Redux, SQLite 3, Tailwind CSS,
-                    TypeScript
+                    TypeScript, Node.js, Express Server, Knex.
                   </p>
                   <div className=" flex flex-wrap pt-5">
                     <a
@@ -63,6 +63,7 @@ export default function Portfolio() {
                     >
                       <div className="pr-5">
                         <FaGithub size={50} />
+                        <p className="pt-2">Github</p>
                       </div>
                     </a>
                   </div>
@@ -79,11 +80,11 @@ export default function Portfolio() {
               </div>
               <div>
                 <div className="sm:text-left ">
-                  <p>Project</p>
+                  <h2>Project</h2>
 
-                  <p className="sm:text-3xl md:text-4xl font-black pb-5">
+                  <h2 className="sm:text-3xl md:text-4xl font-black pb-5">
                     G.O.A.T Car List
-                  </p>
+                  </h2>
                 </div>
                 <p>
                   Ever wanted to collect some of the rarest, coolest, unique
@@ -92,32 +93,38 @@ export default function Portfolio() {
                 </p>
                 <div className="pt-4">
                   <p>
-                    Well I did too! Inspired by games like Forza I wanted to
-                    create list of the greatest cars ever made and collect them
-                    using the wacky magical world of the internet. Utilising
-                    full CRUD operations, this website will allow you to add
-                    your own car to the list with ease, if the information is
-                    incorrect you can update the data, or outright delete them
-                    if you dare!
+                    Well I did too! Inspired by games like Forza, I wanted to
+                    collate a list of the greatest cars ever made and collect
+                    them using the wacky magical world of the internet.
+                    Utilising full CRUD operations, this website will allow you
+                    to add your own car to the list with ease, if the
+                    information is incorrect you can update the data, or
+                    outright delete them if you dare!
                   </p>
                   <p className="pt-4">
-                    Built using: React, Redux, SQLite 3, CSS 3, TypeScript
+                    Built using: React, Redux, SQLite 3, CSS 3, TypeScript,
+                    Node.js, Express Server, Knex.
                   </p>
                   <div className=" flex flex-wrap pt-5">
                     <a
                       href="https://github.com/tohora-2023/my-fullstack-collection/tree/raghav "
                       target="_blank"
                     >
-                      <div className="pr-5">
+                      <div className="pr-5 text-center">
                         <FaGithub size={50} />
+                        <p className="pt-2">Github</p>
                       </div>
                     </a>
+
                     <div className="pl-5">
                       <a
                         href="http://car-collection.devacademy.nz/"
                         target="_blank"
                       >
-                        <CgWebsite size={50} />
+                        <div className="pr-5  text-center">
+                          <CgWebsite size={50} />
+                          <p className="pt-2">Live</p>
+                        </div>
                       </a>
                     </div>
                   </div>

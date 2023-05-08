@@ -18,13 +18,14 @@ export default function Skills() {
         {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className="pt-10">
-            <p className="sd:text-3xl md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">
+            <h1 className="sd:text-3xl md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">
               Skills & Experience
-            </p>
-            <p className="font-bold  py-10 md:text-3xl">
+            </h1>
+            <h2 className="font-black  py-10 md:text-3xl">
               Some of the software I have worked with to date.
-            </p>
+            </h2>
           </div>
+
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img
@@ -32,11 +33,11 @@ export default function Skills() {
                 src={htmlImg}
                 alt="HTML Icon"
               />
-              <p className="my-4">HTML</p>
+              <p className="my-4 font-bold">HTML</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img className="w-20 mx-auto py-4" src={cssImg} alt="CSS Icon" />
-              <p className="my-4">CSS</p>
+              <p className="my-4 font-bold">CSS</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img
@@ -44,7 +45,7 @@ export default function Skills() {
                 src={jsImg}
                 alt="JavaScript Icon"
               />
-              <p className="my-4">JavaScript</p>
+              <p className="my-4 font-bold">JavaScript</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img
@@ -52,7 +53,7 @@ export default function Skills() {
                 src={tsImg}
                 alt="TypeScript Icon"
               />
-              <p className="my-4">TypeScript</p>
+              <p className="my-4 font-bold">TypeScript</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img
@@ -60,7 +61,7 @@ export default function Skills() {
                 src={reactImg}
                 alt="React Icon"
               />
-              <p className="my-4">React</p>
+              <p className="my-4 font-bold">React</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img
@@ -68,7 +69,7 @@ export default function Skills() {
                 src={tailwindImg}
                 alt="Tailwind Icon"
               />
-              <p className="my-4">Tailwind</p>
+              <p className="my-4 font-bold">Tailwind CSS</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img
@@ -76,7 +77,7 @@ export default function Skills() {
                 src={githubImg}
                 alt="Github Icon"
               />
-              <p className="my-4">GitHub</p>
+              <p className="my-4 font-bold">GitHub</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <img
@@ -84,7 +85,7 @@ export default function Skills() {
                 src={sqliteImg}
                 alt="SQLite3 Icon"
               />
-              <p className="my-4">SQLite 3</p>
+              <p className="my-4 font-bold">SQLite 3</p>
             </div>
           </div>
         </div>

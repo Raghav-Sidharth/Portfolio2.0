@@ -14,31 +14,38 @@ export default function Contact() {
           className="flex flex-col max-w-[600px] w-full pb-20"
         >
           <div className="pb-8">
-            <p className=" sm:text-3xl md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">
+            <h1 className=" sm:text-3xl md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">
               Contact
-            </p>
-            <p className="py-10 font-bold md:text-3xl">
+            </h1>
+            <h2 className="py-10 font-bold md:text-3xl">
               Submit the form below to get in touch!{' '}
-            </p>
+            </h2>
           </div>
+
           <input
+            aria-label="Name"
             className="my-3 p-2 bg-[#07212c] text-[#eeede1] rounded-lg"
             type="text"
             placeholder="Name"
             name="name"
           />
+
           <input
+            aria-label="Email"
             className="my-3 p-2 bg-[#07212c] text-[#eeede1] rounded-lg"
             type="text"
             placeholder="Email"
             name="email"
           />
+
           <textarea
+            aria-label="Message"
             name="message"
             placeholder="Message"
             rows={10}
             className="my-3 p-2 bg-[#07212c] text-[#eeede1] rounded-lg"
           ></textarea>
+
           <button className="px-4 py-3 my-8 mx-auto flex items-center rounded-lg border-2 border-[#07212c] duration-150 hover:border-[#a48948] hover:bg-[#a48948] hover:text-[#eeede1]">
             Send Message
           </button>
