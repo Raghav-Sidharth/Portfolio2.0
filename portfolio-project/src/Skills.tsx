@@ -57,7 +57,7 @@ export default function Skills() {
                 <SiAdobeindesign size={80} />
               </div>
 
-              <p className="my-4 font-bold">Adobe Illustrator</p>
+              <p className="my-4 font-bold">Adobe InDesign</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
               <div className="text-orange-500 flex pt-5 justify-center">
