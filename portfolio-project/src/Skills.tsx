@@ -21,13 +21,12 @@ import {
 export default function Skills() {
   return (
     <>
-      <div className="sd:w-full sd:h-[1000px] bg-[#eeede1]"></div>
       <div
         id="skills"
-        className="bg-[#eeede1] md:w-full md:h-screen font-proxima"
+        className=" bg-[#eeede1] pt-[75px] pb-[75px] font-proxima "
       >
         {/* Container */}
-        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center sm:w-full sm:h-screen  ">
           <div className="pt-[100px]">
             <h1 className="sd:text-3xl md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">
               Skills & Experience
