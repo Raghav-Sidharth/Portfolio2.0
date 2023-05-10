@@ -31,12 +31,12 @@ export default function NavBar() {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} offset={-75} duration={500}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to="projects" smooth={true} offset={-100} duration={500}>
+          <Link to="projects" smooth={true} offset={-120} duration={500}>
             Projects
           </Link>
         </li>

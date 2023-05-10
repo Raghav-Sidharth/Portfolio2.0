@@ -1,11 +1,22 @@
-import htmlImg from './assets/Software Logos/html.png'
-import reactImg from './assets/Software Logos/react.png'
-import cssImg from './assets/Software Logos/css.png'
-import tailwindImg from './assets/Software Logos/tailwind.png'
-import tsImg from './assets/Software Logos/typescript.png'
-import sqliteImg from './assets/Software Logos/SQLite.png'
-import jsImg from './assets/Software Logos/javascript.png'
-import githubImg from './assets/Software Logos/github.png'
+// React Icons
+import {
+  SiAdobeillustrator,
+  SiAdobephotoshop,
+  SiAdobeindesign,
+  SiNodedotjs,
+} from 'react-icons/si'
+
+import { FaGithub } from 'react-icons/fa'
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiJavascript,
+  SiHtml5,
+  SiCss3,
+  SiSqlite,
+  SiReact,
+  SiShopify,
+} from 'react-icons/si'
 
 export default function Skills() {
   return (
@@ -17,7 +28,7 @@ export default function Skills() {
       >
         {/* Container */}
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-          <div className="pt-10">
+          <div className="pt-[100px]">
             <h1 className="sd:text-3xl md:text-6xl font-extrabold inline border-b-4 border-[#a48948]">
               Skills & Experience
             </h1>
@@ -26,66 +37,88 @@ export default function Skills() {
             </h2>
           </div>
 
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+          <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-10 pb-[100px] text-center py-8">
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img
-                className="w-20 mx-auto py-4"
-                src={htmlImg}
-                alt="HTML Icon"
-              />
+              <div className="text-blue-700 flex pt-5 justify-center">
+                <SiAdobephotoshop size={80} />
+              </div>
+
+              <p className="my-4 font-bold">Adobe Photoshop</p>
+            </div>
+            <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
+              <div className="text-yellow-600 flex pt-5 justify-center">
+                <SiAdobeillustrator size={80} />
+              </div>
+
+              <p className="my-4 font-bold">Adobe Illustrator</p>
+            </div>
+            <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
+              <div className="text-pink-600 flex pt-5 justify-center">
+                <SiAdobeindesign size={80} />
+              </div>
+
+              <p className="my-4 font-bold">Adobe Illustrator</p>
+            </div>
+            <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
+              <div className="text-orange-500 flex pt-5 justify-center">
+                <SiHtml5 size={80} />
+              </div>
+
               <p className="my-4 font-bold">HTML</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto py-4" src={cssImg} alt="CSS Icon" />
+              <div className="flex text-blue-500 pt-5 justify-center">
+                <SiCss3 size={80} />
+              </div>
               <p className="my-4 font-bold">CSS</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img
-                className="w-20 mx-auto py-4"
-                src={jsImg}
-                alt="JavaScript Icon"
-              />
+              <div className="text-yellow-500 pt-5 flex justify-center">
+                <SiJavascript size={80} />
+              </div>
               <p className="my-4 font-bold">JavaScript</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img
-                className="w-20 mx-auto py-4"
-                src={tsImg}
-                alt="TypeScript Icon"
-              />
+              <div className=" text-blue-500 pt-5 flex justify-center">
+                <SiTypescript size={80} />
+              </div>
               <p className="my-4 font-bold">TypeScript</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img
-                className="w-20 mx-auto py-4"
-                src={reactImg}
-                alt="React Icon"
-              />
+              <div className=" text-blue-500 pt-5 flex justify-center">
+                <SiReact size={80} />
+              </div>
               <p className="my-4 font-bold">React</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img
-                className="w-20 mx-auto py-4"
-                src={tailwindImg}
-                alt="Tailwind Icon"
-              />
+              <div className=" text-cyan-400 pt-5 flex justify-center">
+                <SiTailwindcss size={80} />
+              </div>
               <p className="my-4 font-bold">Tailwind CSS</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img
-                className="w-20 mx-auto py-4"
-                src={githubImg}
-                alt="Github Icon"
-              />
+              <div className=" text-gray-800 pt-5 flex justify-center">
+                <FaGithub size={80} />
+              </div>
               <p className="my-4 font-bold">GitHub</p>
             </div>
             <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
-              <img
-                className="w-20 mx-auto py-4"
-                src={sqliteImg}
-                alt="SQLite3 Icon"
-              />
+              <div className=" text-blue-500 pt-5 flex justify-center">
+                <SiSqlite size={80} />
+              </div>
               <p className="my-4 font-bold">SQLite 3</p>
+            </div>
+            <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
+              <div className=" text-green-500 pt-5 flex justify-center">
+                <SiShopify size={80} />
+              </div>
+              <p className="my-4 font-bold">Shopify</p>
+            </div>
+            <div className="rounded hover:shadow-md hover:shadow-[#a48948] hover:scale-110 duration-500">
+              <div className=" text-green-600 pt-5 flex justify-center">
+                <SiNodedotjs size={80} />
+              </div>
+              <p className="my-4 font-bold">Node JS</p>
             </div>
           </div>
         </div>

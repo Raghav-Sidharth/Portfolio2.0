@@ -1,11 +1,12 @@
 import Gallerina from './assets/files/Gallerina.png'
 import GOAT from './assets/files/GOAT Car List.png'
+import Logo from './assets/files/Logo Decor-21.png'
 import { FaGithub } from 'react-icons/fa'
 import { CgWebsite } from 'react-icons/cg'
 
 export default function Portfolio() {
   return (
-    <div className="sm:w-full sm:h-[1500px] sm:pt-20 bg-[#07212c] ">
+    <div className="sm:w-full sm:h-[2500px]  bg-[#07212c] ">
       <div
         id="projects"
         className=" w-full h-full bg-[#07212c] text-[#eeede1] font-proxima"
@@ -70,7 +71,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-            <div className="pb-20 mb-20 rounded-lg hover:shadow-lg  hover:shadow-[#a48948] duration-500 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-10">
+            <div className="  rounded-lg hover:shadow-lg  hover:shadow-[#a48948] duration-500 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-10">
               <div>
                 <img
                   className="sm:min-w-100px sm:min-h-100px md:max-w-250px md:max-h-250px rounded-lg"
@@ -119,6 +120,66 @@ export default function Portfolio() {
                     <div className="pl-5">
                       <a
                         href="http://car-collection.devacademy.nz/"
+                        target="_blank"
+                      >
+                        <div className="pr-5  text-center">
+                          <CgWebsite size={50} />
+                          <p className="pt-2">Live</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="  rounded-lg hover:shadow-lg  hover:shadow-[#a48948] duration-500 max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 py-10">
+              <div>
+                <img
+                  className="sm:min-w-100px sm:min-h-100px md:max-w-250px md:max-h-250px rounded-lg"
+                  src={Logo}
+                  alt="Greatest of all time Cars"
+                />
+              </div>
+              <div>
+                <div className="sm:text-left ">
+                  <h2>Project</h2>
+
+                  <h2 className="sm:text-3xl md:text-4xl font-black pb-5">
+                    Personal Portfolio
+                  </h2>
+                </div>
+                <p>
+                  The website you are currently on, if you haven't noticed
+                  already is my portfolio, took a few attempts and countless
+                  wireframes to build this website.
+                </p>
+                <div className="pt-4">
+                  <p>
+                    Using a combination of different tools, I wanted to create a
+                    website inline with the my personal styling and would feel
+                    like an extension of my CV. There were some hiccups such as
+                    some of the accessibility features still need to be fully
+                    ironed out, and some elements needing more responsive
+                    breakpoints.
+                  </p>
+                  <p className="pt-4">
+                    Built using: Vite, React, TypeScript, Tailwind CSS, React
+                    Icons, deployed using Netlify.
+                  </p>
+                  <div className=" flex flex-wrap pt-5">
+                    <a
+                      href="https://github.com/Raghav-Sidharth/Portfolio2.0"
+                      target="_blank"
+                    >
+                      <div className="pr-5 text-center">
+                        <FaGithub size={50} />
+                        <p className="pt-2">Github</p>
+                      </div>
+                    </a>
+
+                    <div className="pl-5">
+                      <a
+                        href="https://raghav-sidharth-dev-portfolio.netlify.app/"
                         target="_blank"
                       >
                         <div className="pr-5  text-center">
