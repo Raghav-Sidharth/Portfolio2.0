@@ -156,11 +156,10 @@ export default function Portfolio() {
                 <div className="pt-4">
                   <p>
                     Using a combination of different tools, I wanted to create a
-                    website inline with the my personal styling and would feel
-                    like an extension of my CV. There were some hiccups such as
-                    some of the accessibility features still need to be fully
-                    ironed out, and some elements needing more responsive
-                    breakpoints.
+                    website inline with my personal styling and would feel like
+                    an extension of my CV. There were some hiccups such as some
+                    of the accessibility features still need to be fully ironed
+                    out, and some elements needing more responsive breakpoints.
                   </p>
                   <p className="pt-4">
                     Built using: Vite, React, TypeScript, Tailwind CSS, React
