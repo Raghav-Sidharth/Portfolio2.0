@@ -67,6 +67,17 @@ export default function Portfolio() {
                         <p className="pt-2">Github</p>
                       </div>
                     </a>
+                    <div className="pl-5">
+                      <a
+                        href="https://gallerinaa.up.railway.app/"
+                        target="_blank"
+                      >
+                        <div className="pr-5  text-center">
+                          <CgWebsite size={50} />
+                          <p className="pt-2">Live</p>
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -108,7 +119,7 @@ export default function Portfolio() {
                   </p>
                   <div className=" flex flex-wrap pt-5">
                     <a
-                      href="https://github.com/tohora-2023/my-fullstack-collection/tree/raghav "
+                      href="https://github.com/Raghav-Sidharth/GOAT-Car-List"
                       target="_blank"
                     >
                       <div className="pr-5 text-center">
