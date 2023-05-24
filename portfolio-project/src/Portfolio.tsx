@@ -59,7 +59,7 @@ export default function Portfolio() {
                   </p>
                   <div className=" flex flex-wrap pt-5">
                     <a
-                      href="https://github.com/tohora-2023/Gallerina/tree/dev"
+                      href="https://github.com/Raghav-Sidharth/Gallerina/tree/dev"
                       target="_blank"
                     >
                       <div className="pr-5">

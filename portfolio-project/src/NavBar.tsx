@@ -74,7 +74,7 @@ export default function NavBar() {
             onClick={handleClick}
             to="skills"
             smooth={true}
-            offset={-70}
+            offset={-10}
             duration={500}
           >
             Skills
@@ -85,7 +85,7 @@ export default function NavBar() {
             onClick={handleClick}
             to="projects"
             smooth={true}
-            offset={-150}
+            offset={-200}
             duration={500}
           >
             Projects
@@ -110,6 +110,7 @@ export default function NavBar() {
             <a
               className="flex justify-between items-center w-full font-bold"
               href="https://www.linkedin.com/in/raghav-sidharth-4b0932188/"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -118,6 +119,7 @@ export default function NavBar() {
             <a
               className="flex justify-between items-center w-full font-bold"
               href="https://github.com/Raghav-Sidharth"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -126,6 +128,7 @@ export default function NavBar() {
             <a
               className="flex justify-between items-center w-full font-bold"
               href="mailto:raghav.sidharth@live.com"
+              target="_blank"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -134,6 +137,7 @@ export default function NavBar() {
             <a
               className="flex justify-between items-center w-full font-bold"
               href={resume}
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
